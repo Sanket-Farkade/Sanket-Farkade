@@ -1,0 +1,40 @@
+name: Profile Graphics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"      # daily
+  workflow_dispatch:          # run manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render gossip graph + stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: ${{ github.repository_owner }}
+        run: |
+          for t in dark light; do
+            python scripts/gossip_graph.py  --user "$USER" --theme $t --out dist/gossip-$t.svg
+            python scripts/profile_cards.py --user "$USER" --theme $t --outdir dist
+          done
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
