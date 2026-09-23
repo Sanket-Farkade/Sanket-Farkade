@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:bc8cff&height=220&section=header&text=YOUR_NAME&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Big%20Data%20%E2%80%A2%20ML%2FDL%20%E2%80%A2%20AI&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:bc8cff&height=220&section=header&text=Sanket&nbsp;Farkade&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Big%20Data%20%E2%80%A2%20ML%2FDL%20%E2%80%A2%20AI&descAlignY=58&descSize=18" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=%3E+bootstrapping+node...;%3E+joined+cluster%3A+big-data%2C+ml%2C+dl%2C+ai;%3E+consensus+reached+via+Raft;%3E+partition+tolerant%2C+caffeine+dependent;%3E+status%3A+training+models+%2B+building+pipelines" alt="Typing intro"/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=1f6feb&style=flat-square&label=REQUESTS+SERVED" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=Sanket-Farkade&color=1f6feb&style=flat-square&label=REQUESTS+SERVED" alt="profile views"/>
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ```text
 $ cat /etc/node-info
-node_id     : YOUR_NAME
+node_id     : Sanket Farkade
 role        : Data Engineer ⇄ ML Engineer   (student, always training)
 cluster     : big-data · machine-learning · deep-learning · ai
 consistency : eventual — but I always converge
@@ -58,7 +58,7 @@ flowchart LR
 <summary><b>📜 tail -f /var/log/now.log</b></summary>
 <br>
 
-- 🔭 Working on **[project name](https://github.com/YOUR_USERNAME)**
+- 🔭 Working on **[project name](https://github.com/Sanket-Farkade)**
 - 🌱 Learning **Apache Spark, Airflow, PyTorch**
 - 📚 Reading: *Designing Data-Intensive Applications*
 - 💬 Ask me about **data pipelines, distributed systems, or ML**
@@ -101,21 +101,21 @@ flowchart LR
 ## 📈 Observability
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sanket-Farkade&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanket-Farkade&layout=compact&theme=tokyonight&hide_border=true"/>
   <br>
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=Sanket-Farkade&theme=tokyonight&hide_border=true"/>
   <br>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sanket-Farkade&theme=tokyo-night&hide_border=true&area=true"/>
 </div>
 
 ## 📡 Gossip Protocol over my Contributions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/gossip-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/gossip-light.svg"/>
-    <img width="100%" alt="Gossip protocol spreading across my contribution graph" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/gossip-dark.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/gossip-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/gossip-light.svg"/>
+    <img width="100%" alt="Gossip protocol spreading across my contribution graph" src="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/gossip-dark.svg"/>
   </picture>
   <br>
   <sub>Each day is a node. My busiest day is elected leader, and the rumor spreads by push-gossip until the whole cluster converges in O(log N) rounds. Regenerated daily.</sub>
