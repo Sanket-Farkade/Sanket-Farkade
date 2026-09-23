@@ -32,18 +32,22 @@ artificial-intel      Scaling ↑   1/3     ████████░░░░
 coffee-daemon         Running     ∞/∞     ████████████████████ 100%
 ```
 
+
+
 ## 🧬 My Pipeline: data in, intelligence out
 
 ```mermaid
 flowchart LR
-    A[(Raw Data)] -->|Kafka| B[Stream Ingest]
-    B -->|Spark| C[Distributed Processing]
-    C --> D[(Lakehouse)]
-    D --> E[Feature Store]
-    E -->|PyTorch| F[Model Training]
-    F --> G[Serving / AI Apps]
-    G -. feedback loop .-> A
+    A[(Claims Stream)] -->|Kafka / Redpanda| B[Spark Streaming]
+    B --> C[(Delta Lakehouse<br/>bronze → silver → gold)]
+    C --> D[Feature Engineering]
+    D --> E[LightGBM + Isolation Forest]
+    E --> F[MLflow Tracking]
+    E --> G[LLM Explanations<br/>with numeric guards]
+    G --> H[Human Review]
+    H -. feedback .-> D
 ```
+
 
 ## 🚀 Active Jobs
 
@@ -66,63 +70,56 @@ flowchart LR
 
 </details>
 
+
+## 🚀 Deployed Jobs
+
+| Project | What it does | Stack |
+|---|---|---|
+| 🏥 **[Auditable AI for Hospital Billing Fraud](https://github.com/Sanket-Farkade/Hospital-Bill-Fraud-Detection-System)** | Batch + real-time fraud scoring on PM-JAY claims, with LLM explanations and human review | Spark · Kafka/Redpanda · Delta Lake · LightGBM · Isolation Forest · LLMs |
+| 😴 **[Sleep & Lifestyle Health Analytics](https://github.com/Sanket-Farkade/sleep-lifestyle-analytics-pipeline)** | Real-time pipeline monitoring sleep metrics and generating actionable insights | Spark · Kafka · Delta Lake |
+| 📡 **[Telecom Risk Scoring & MLflow Serving](https://github.com/Sanket-Farkade/Customer_Churn_Prediction)** | End-to-end churn prediction with feature engineering and experiment tracking | Databricks · PySpark · scikit-learn · MLflow |
+
+<details>
+<summary><b>📜 tail -f /var/log/now.log</b></summary>
+<br>
+
+- 🔭 Building **auditable, explainable AI** for high-stakes decisions
+- 🌱 Learning **streaming at scale, MLOps, LLM guardrails**
+- 📚 Reading: *Designing Data-Intensive Applications*
+- 💬 Ask me about **lakehouses, Spark, or fraud detection**
+- ⚡ Fun fact: *something quirky about you*
+
+</details>
+
+
 ## 🧠 Algorithms Hall of Fame
 
 | Algorithm | Domain | Why it's genius |
 |---|---|---|
-| **Raft** | Consensus | Makes a cluster agree on one truth, and was designed to be understandable |
 | **MapReduce** | Big Data | Split, process in parallel, merge. Simple idea, planet-scale results |
 | **Consistent Hashing** | Distributed Systems | Add or remove a node and only a small slice of keys move |
-| **HyperLogLog** | Big Data | Counts billions of unique items using a few kilobytes |
-| **Bloom Filter** | Data Structures | "Definitely not here" or "probably here" in constant space |
-| **Vector Clocks** | Distributed Systems | Tracks causality without a global clock |
 | **Backpropagation** | Deep Learning | The chain rule, applied at scale, taught machines to learn |
 | **Attention** | AI | Let every token look at every other token and the Transformer was born |
 | **Adam** | Optimization | Momentum plus adaptive learning rates, the default for a reason |
+| **Isolation Forest** | Anomaly Detection | Anomalies are easier to isolate, so they end up with shorter paths in random trees |
+| **Gradient Boosting** | Machine Learning | Each tree fixes the mistakes of the ones before it. LightGBM makes it fast |
+
+
 
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,mysql,sqlite,aws,docker,git&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql,aws,docker,git&theme=dark"/>
 </p>
 
-<p align="center"><b>⚙️ Data Engineering & Big Data</b><br>
+<p align="center">
   <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redpanda-E2401B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Hadoop_·_HDFS_·_YARN_·_MapReduce-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black"/>
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
   <img src="https://img.shields.io/badge/Delta_Lake-00ADD4?style=for-the-badge"/>
-</p>
-
-<p align="center"><b>🧠 Machine Learning & Analytics</b><br>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
   <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LightGBM-3B8E3B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/NetworkX-2C5BB4?style=for-the-badge"/>
-</p>
-
-<p align="center"><b>🤖 Generative AI & LLMs</b><br>
-  <img src="https://img.shields.io/badge/LLMs-8250DF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-</p>
-
-<p align="center"><b>🗄️ Databases, Cloud & Storage</b><br>
-  <img src="https://img.shields.io/badge/AWS_S3_·_EC2_·_IAM-232F3E?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ORC-6C4AB6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-</p>
-
-<p align="center"><b>🛠️ DevOps & Visualization</b><br>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=black"/>
 </p>
 
 
@@ -143,6 +140,7 @@ flowchart LR
   <img src="https://streak-stats.demolab.com?user=Sanket-Farkade&theme=tokyonight&hide_border=true"/>
 </div>
 
+
 ## 📡 Gossip Protocol over my Contributions
 
 <div align="center">
@@ -154,6 +152,7 @@ flowchart LR
   <br>
   <sub>Each day is a node. My busiest day is elected leader, and the rumor spreads by push-gossip until the whole cluster converges in O(log N) rounds. Regenerated daily.</sub>
 </div>
+
 
 ## 🔬 Models Trained on My Contributions
 
@@ -172,6 +171,7 @@ flowchart LR
   </picture>
   <sub>A 6→8→4→1 MLP trained from scratch in pure Python, forecasting this week's contributions from the previous 6. Retrained daily.</sub>
 </div>
+
 
 ## 🔌 Open a Connection
 
