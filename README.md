@@ -22,7 +22,7 @@ cluster     : big-data · machine-learning · deep-learning · ai
 consistency : eventual — but I always converge
 uptime      : since day one of curiosity
 
-$ kubectl get skills --namespace=YOUR_NAME
+$ kubectl get skills --namespace=sanket-farkade
 NAME                  STATUS      READY   LOAD
 data-engineering      Running     3/3     ██████████████░░░░░░  70%
 distributed-systems   Running     2/3     ████████████░░░░░░░░  60%
@@ -83,30 +83,64 @@ flowchart LR
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,scala,postgres,mongodb,redis,docker,kubernetes,linux,git&theme=dark&perline=10"/>
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,pytorch,tensorflow,sklearn,vscode&theme=dark&perline=10"/>
+  <img src="https://skillicons.dev/icons?i=python,mysql,sqlite,aws,docker,git&theme=dark"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
+<p align="center"><b>⚙️ Data Engineering & Big Data</b><br>
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redpanda-E2401B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Hadoop_·_HDFS_·_YARN_·_MapReduce-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black"/>
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Delta_Lake-00ADD4?style=for-the-badge"/>
 </p>
+
+<p align="center"><b>🧠 Machine Learning & Analytics</b><br>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LightGBM-3B8E3B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/NetworkX-2C5BB4?style=for-the-badge"/>
+</p>
+
+<p align="center"><b>🤖 Generative AI & LLMs</b><br>
+  <img src="https://img.shields.io/badge/LLMs-8250DF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+</p>
+
+<p align="center"><b>🗄️ Databases, Cloud & Storage</b><br>
+  <img src="https://img.shields.io/badge/AWS_S3_·_EC2_·_IAM-232F3E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ORC-6C4AB6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+</p>
+
+<p align="center"><b>🛠️ DevOps & Visualization</b><br>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=black"/>
+</p>
+
 
 ## 📈 Observability
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sanket-Farkade&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanket-Farkade&layout=compact&theme=tokyonight&hide_border=true"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/stats-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/stats-light.svg"/>
+    <img height="190" alt="Node stats" src="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/stats-dark.svg"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/langs-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/langs-light.svg"/>
+    <img height="190" alt="Top languages" src="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/langs-dark.svg"/>
+  </picture>
   <br>
   <img src="https://streak-stats.demolab.com?user=Sanket-Farkade&theme=tokyonight&hide_border=true"/>
-  <br>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sanket-Farkade&theme=tokyo-night&hide_border=true&area=true"/>
 </div>
 
 ## 📡 Gossip Protocol over my Contributions
@@ -119,6 +153,24 @@ flowchart LR
   </picture>
   <br>
   <sub>Each day is a node. My busiest day is elected leader, and the rumor spreads by push-gossip until the whole cluster converges in O(log N) rounds. Regenerated daily.</sub>
+</div>
+
+## 🔬 Models Trained on My Contributions
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/kmeans-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/kmeans-light.svg"/>
+    <img width="100%" alt="K-means clustering my contribution days" src="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/kmeans-dark.svg"/>
+  </picture>
+  <sub>Every day is projected into (time, log activity) space and clustered live with Lloyd's algorithm, then mapped back onto the calendar.</sub>
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/nn-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/nn-light.svg"/>
+    <img width="100%" alt="Neural network trained on my contributions" src="https://raw.githubusercontent.com/Sanket-Farkade/Sanket-Farkade/output/nn-dark.svg"/>
+  </picture>
+  <sub>A 6→8→4→1 MLP trained from scratch in pure Python, forecasting this week's contributions from the previous 6. Retrained daily.</sub>
 </div>
 
 ## 🔌 Open a Connection
