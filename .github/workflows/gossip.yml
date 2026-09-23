@@ -21,13 +21,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render gossip graph + stats cards
+      - name: Render animations + stats cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER: ${{ github.repository_owner }}
         run: |
           for t in dark light; do
             python scripts/gossip_graph.py  --user "$USER" --theme $t --out dist/gossip-$t.svg
+            python scripts/kmeans_graph.py  --user "$USER" --theme $t --out dist/kmeans-$t.svg
+            python scripts/nn_graph.py      --user "$USER" --theme $t --out dist/nn-$t.svg
             python scripts/profile_cards.py --user "$USER" --theme $t --outdir dist
           done
 
