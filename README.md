@@ -34,19 +34,7 @@ coffee-daemon         Running     ∞/∞     ███████████�
 
 
 
-## 🧬 My Pipeline: data in, intelligence out
 
-```mermaid
-flowchart LR
-    A[(Claims Stream)] -->|Kafka / Redpanda| B[Spark Streaming]
-    B --> C[(Delta Lakehouse<br/>bronze → silver → gold)]
-    C --> D[Feature Engineering]
-    D --> E[LightGBM + Isolation Forest]
-    E --> F[MLflow Tracking]
-    E --> G[LLM Explanations<br/>with numeric guards]
-    G --> H[Human Review]
-    H -. feedback .-> D
-```
 
 
 ## 🚀 Active Jobs
@@ -57,18 +45,6 @@ flowchart LR
 | 🧠 Training, deploying and monitoring ML models end to end | 🟢 Running |
 | 🔥 Going deeper into deep learning: CNNs, Transformers | 🟡 Scaling up |
 | 🤖 Exploring modern AI: LLMs, RAG, agents | 🟡 Scaling up |
-
-<details>
-<summary><b>📜 tail -f /var/log/now.log</b></summary>
-<br>
-
-- 🔭 Working on **[project name](https://github.com/Sanket-Farkade)**
-- 🌱 Learning **Apache Spark, Airflow, PyTorch**
-- 📚 Reading: *Designing Data-Intensive Applications*
-- 💬 Ask me about **data pipelines, distributed systems, or ML**
-- ⚡ Fun fact: *something quirky about you*
-
-</details>
 
 
 ## 🚀 Deployed Jobs
