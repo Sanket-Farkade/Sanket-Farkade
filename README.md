@@ -55,17 +55,6 @@ coffee-daemon         Running     ∞/∞     ███████████�
 | 😴 **[Sleep & Lifestyle Health Analytics](https://github.com/Sanket-Farkade/sleep-lifestyle-analytics-pipeline)** | Real-time pipeline monitoring sleep metrics and generating actionable insights | Spark · Kafka · Delta Lake |
 | 📡 **[Telecom Risk Scoring & MLflow Serving](https://github.com/Sanket-Farkade/Customer_Churn_Prediction)** | End-to-end churn prediction with feature engineering and experiment tracking | Databricks · PySpark · scikit-learn · MLflow |
 
-<details>
-<summary><b>📜 tail -f /var/log/now.log</b></summary>
-<br>
-
-- 🔭 Building **auditable, explainable AI** for high-stakes decisions
-- 🌱 Learning **streaming at scale, MLOps, LLM guardrails**
-- 📚 Reading: *Designing Data-Intensive Applications*
-- 💬 Ask me about **lakehouses, Spark, or fraud detection**
-- ⚡ Fun fact: *something quirky about you*
-
-</details>
 
 
 ## 🧠 Algorithms Hall of Fame
