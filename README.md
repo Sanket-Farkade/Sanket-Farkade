@@ -2,11 +2,13 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:bc8cff&height=220&section=header&text=Sanket&nbsp;Farkade&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Big%20Data%20%E2%80%A2%20ML%2FDL%20%E2%80%A2%20AI&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:bc8cff&height=220&section=header&text=Sanket%20Farkade&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Big%20Data%20%E2%80%A2%20ML%2FDL%20%E2%80%A2%20AI&descAlignY=58&descSize=18" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=%3E+bootstrapping+node...;%3E+joined+cluster%3A+big-data%2C+ml%2C+dl%2C+ai;%3E+consensus+reached+via+Raft;%3E+partition+tolerant%2C+caffeine+dependent;%3E+status%3A+training+models+%2B+building+pipelines" alt="Typing intro"/>
 
-<img src="https://komarev.com/ghpvc/?username=Sanket-Farkade&color=1f6feb&style=flat-square&label=REQUESTS+SERVED" alt="profile views"/>
+<br>
+
+<img src="https://img.shields.io/github/followers/Sanket-Farkade?style=flat-square&label=FOLLOWERS&color=1f6feb" alt="followers"/>
 
 </div>
 
